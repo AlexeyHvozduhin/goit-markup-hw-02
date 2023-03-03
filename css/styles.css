@@ -137,6 +137,11 @@ img {
   cursor: pointer;
 }
 
+.hero-button:focus,
+.hero-button:hover {
+  background-color: var(--just-white-color);
+  color: var(--main-color);
+}
 /*INFORMATION*/
 
 .information-header {
@@ -167,7 +172,9 @@ img {
 }
 
 .team-card {
-  background-color: var(--light-color);
+  background-color: var(--just-white-color);
+  width: 264px;
+  height: 380px;
 }
 
 .team-name {
