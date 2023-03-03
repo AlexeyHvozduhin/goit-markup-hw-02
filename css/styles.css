@@ -1,5 +1,6 @@
 :root {
-  --main-color: #4d5ae5;
+  /* --main-color: #4d5ae5;*/
+  --main-color: #404bbf;
   --black-color: #2e2f42;
   --light-color: #f4f4fd;
   --footer-text-color: #e7e9fc;
@@ -31,6 +32,8 @@ ul {
 a {
   text-decoration: none;
 }
+
+/* Список изменений, которые уже реализованы другими способами, но проверка того требует */
 .list {
   list-style: none;
 }
@@ -38,6 +41,7 @@ a {
 .link {
   text-decoration: none;
 }
+
 /*.........HEADER.........*/
 
 .nav-logo {
