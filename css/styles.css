@@ -1,5 +1,5 @@
 :root {
-  /* --main-color: #4d5ae5;*/
+  --main-logo-color: #4d5ae5;
   --main-color: #404bbf;
   --black-color: #2e2f42;
   --light-color: #f4f4fd;
@@ -45,7 +45,7 @@ a {
 /*.........HEADER.........*/
 
 .nav-logo {
-  color: var(--main-color);
+  color: var(--main-logo-color);
   text-transform: uppercase;
   font-family: Raleway, sans-serif;
   letter-spacing: 0.03em;
@@ -73,12 +73,12 @@ a {
   color: var(--main-color);
 }
 
-.contacts {
+.contacts-link {
   font-style: normal;
-  color: var(--standart-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--standart-color);
 }
 
 .contacts-link:hover,
