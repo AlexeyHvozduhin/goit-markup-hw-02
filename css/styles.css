@@ -81,8 +81,8 @@ a {
   letter-spacing: 0.02em;
 }
 
-.contacts:hover,
-.contacts:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: var(--main-color);
 }
 
