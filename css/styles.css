@@ -73,6 +73,9 @@ a {
   color: var(--main-color);
 }
 
+.contacts {
+  font-style: normal;
+}
 .contacts-link {
   font-style: normal;
   font-size: 16px;
