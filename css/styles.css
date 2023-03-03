@@ -133,7 +133,7 @@ img {
 .hero-button {
   background: var(--main-color);
   color: var(--just-white-color);
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -189,6 +189,10 @@ img {
   letter-spacing: 0.02em;
 }
 
+.team-logo {
+  letter-spacing: 0.02em;
+}
+
 /*......END MAIN......*/
 
 /*...MAIN PORFOLIO...*/
@@ -235,7 +239,7 @@ img {
 }
 
 .footer-logo {
-  color: var(--main-color);
+  color: var(--main-logo-color);
 }
 .footer-logo > span {
   color: var(--light-color);
@@ -246,4 +250,8 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.footer-span {
+  color: var(--light-color);
 }
