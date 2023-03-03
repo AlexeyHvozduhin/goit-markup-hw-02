@@ -35,16 +35,16 @@ a {
 /*.........HEADER.........*/
 
 .nav-logo {
-  color: var(--black-color);
+  color: var(--main-color);
   text-transform: uppercase;
   font-family: Raleway, sans-serif;
   letter-spacing: 0.03em;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
 }
 .nav-logo > span {
-  color: var(--main-color);
+  color: var(--black-color);
 }
 
 .nav-link {
@@ -222,6 +222,9 @@ img {
 }
 
 .footer-logo {
+  color: var(--main-color);
+}
+.footer-logo > span {
   color: var(--light-color);
 }
 
